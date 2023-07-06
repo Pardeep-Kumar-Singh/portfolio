@@ -1,0 +1,164 @@
+@media(max-width:768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .main {
+        height: 50vh;
+    }
+
+    .main .home-content {
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+
+    .main .home-content h1 {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .main .home-content h3 {
+        color: white;
+        font-size: 18px;
+    }
+
+    .main .home-content .btn {
+        height: 30px;
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .main .icons a {
+        font-size: 20px;
+        line-height: 55px;
+    }
+
+    .main .image img {
+        width: 300px;
+    }
+
+    .about {
+        height: 50vh;
+    }
+
+    .about .img {
+        display: none;
+    }
+
+    .about .aboutme {
+        display: inline;
+        width: 80%;
+    }
+
+    .about .aboutme h2 {
+        font-size: 25px;
+    }
+
+    .skills {
+        display: none;
+    }
+
+    .education {
+        background: #010024;
+        min-height: 50vh;
+    }
+
+    .education h1 {
+        color: #BE8DFB;
+    }
+
+    .education h1 span {
+        color: #BE8DFB;
+    }
+
+    .education .qoute {
+        color: #BE8DFB;
+    }
+
+
+    .education .box-container .box {
+        height: 150px;
+        width: 80%;
+    }
+
+    .education .box-container .box .image {
+        flex: 1 1 21rem;
+        width: 100%;
+    }
+
+    .education .box-container .box img {
+        object-fit: cover;
+        position: relative;
+        width: 100%;
+    }
+
+
+    .education .box-container .box .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .education h4 {
+        padding-right: 16rem;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .Achievement .container .img1 img {
+        width: 300px;
+        transition: .9s;
+    }
+    .footer .box-container .box {
+        flex: 1 1 25rem;
+        margin: 2.5rem;
+    }
+}
+@media(max-width:414px) {
+    html {
+        overflow-x: hidden;
+    }
+    nav .logo {
+        height: 30px;
+        margin-left: -60px;
+    }
+    nav ul .btn {
+        height: 30px;
+        width: 80px;
+        font-size: 14px;
+        margin-right: -60px;
+    }
+    .main .home-content{
+        margin-top: 60px;
+    }
+    .main .image {
+        display: none;
+    }
+    .about {
+        display: none;
+    }
+    .education{
+        display: none;
+    }
+    .Achievement h1{
+        font-size: 20px;
+    }
+    .Achievement .container .img1 h3 {
+        font-size: 10px;
+    }
+    .Achievement .container .img1 img {
+        width: 100px;
+        transition: .9s;
+    }
+    .Achievement .container .img2{
+        display: none;
+    }
+    .footer .box-container .box {
+        flex: 1 1 25rem;
+        margin: 2.5rem;
+    }
+}
